@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RNG </title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="keywords" content="сайт, приложение, html, css"/>
+        <meta name="author" content="nastasiata"/>
+    </head>
+    <body>
+        <br>
+        <div id="hat">
+            <img src="sfedu.png" alt="NoLogo1" id="logo1" title="Hello, My Dear User!"> 
+            <span style="font-family: 'segoe print'">Random Number Generator</span>
+            <input type="text" class="password" placeholder="Email">
+            <input type="text" class="password" placeholder="Password">
+            <input type="submit" class="submit_password" value="Sign in">
+            <input type="submit" class="submit_registration" value="Registration">
+        </div>
+        <br>
+        <div class="main">
+            <div id="val_mean">
+                <div id="inside">
+                    <span style="font-size: 24px">Enter a range of number values<br>
+                    from<input type="number" id="range" value="0" min="-10000" max="10000" step="1">
+                    to<input type="number" id="range" value="0" min="-10000" max="10000" step="1">
+                    <br>
+                    Enter the number of numbers<input type="number" id="range" value="1" min="1" max="1000" step="1">
+                    </span>
+                </div>
+            </div>
+            <div id="val_output">
+                <input type="submit" class="submit_num" value="output"><br>
+            </div>
+            
+            <textarea rows="4" cols="59" name="text" id="outout" readonly>10 20 11 30 58 7 91 54 1</textarea>
+            <br><br> <span style="font-size: 24px" style="margin-left: 40px">Your Memory</span>
+            <textarea rows="4" cols="59" name="text" id="outout" readonly>10 20 11 30 58 7 91 54 1</textarea> 
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

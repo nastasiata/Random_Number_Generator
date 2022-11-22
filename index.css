@@ -1,0 +1,103 @@
+html{
+    background-image: url(fon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#hat {
+    float: right;
+    margin-right: 100px;
+    background-color: rgb(255, 255, 255);
+    width: 748px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#logo1 {
+    width: 55px;
+    height: 55px;
+    margin-left: 5px;
+}
+
+.password {
+    border-radius: 50px;
+    width: 120px;
+    border: 1px solid black;
+    margin-right: 2px;
+}
+
+.submit_password {
+    border-radius: 50px;
+    background-color: #e3e3fd;
+    margin-right: 2px;
+    border: 3px solid rgb(46, 192, 97);
+}
+
+
+.submit_registration {
+    border-radius: 50px;
+    background-color: #e3e3fd;
+    margin-right: 100px;
+    border: 3px solid rgb(176, 36, 36);
+}
+.main {
+    float: right;
+    margin-right: 100px;
+    width: 748px;
+    height: 490px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#val_mean {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#inside {
+    margin-left: 40px;
+    margin-top: 10px;
+    display: block;
+}
+
+#range {
+    width: 60px;
+    height: 20px;
+}
+
+.submit_num {
+    display: flex;
+    border-radius: 50px;
+    background-color: rgb(119, 116, 177);
+    margin-left: 300px;
+    margin-top: 95px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+}
+
+
+
+#outout {
+    margin-left: 40px;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    max-height: 100px;
+    max-width: 650px;
+    min-height: 30px;
+    min-width: 30px;
+}
