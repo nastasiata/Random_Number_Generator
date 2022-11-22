@@ -12,7 +12,8 @@ html{
     width: 748px;
     height: 55px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -36,7 +37,7 @@ html{
     border-radius: 50px;
     background-color: #e3e3fd;
     margin-right: 2px;
-    border: 3px solid rgb(46, 192, 97);
+    border: 3px solid rgb(17, 56, 31);
 }
 
 
@@ -44,8 +45,24 @@ html{
     border-radius: 50px;
     background-color: #e3e3fd;
     margin-right: 100px;
-    border: 3px solid rgb(176, 36, 36);
+    border: 3px solid rgb(82, 22, 22);
 }
+.popup {
+    position: fixed;
+    width: 300px;
+    height: 500px;
+    margin-left: 25px;
+    margin-top: 35px;
+    background-color: rgba(240, 248, 255, 0.518);
+    border-radius: 50px;
+    opacity: 0;
+    visibility: hidden;    
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
 .main {
     float: right;
     margin-right: 100px;
@@ -53,16 +70,16 @@ html{
     height: 490px;
     display: block;
     border: 1px solid black;
-    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.081);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 #val_mean {
     float: left;
-    margin-left: 40px;
+    margin-left: 10px;
     margin-top: 40px;
-    width: 450px;
-    border: 1px solid black;
-    border-radius: 50px;
+    width: 500px;
 }
 
 #inside {
@@ -74,30 +91,61 @@ html{
 #range {
     width: 60px;
     height: 20px;
+    font-family: "Lucida Sans Unicode";
+    border-radius: 10px;
 }
 
 .submit_num {
     display: flex;
-    border-radius: 50px;
-    background-color: rgb(119, 116, 177);
-    margin-left: 300px;
-    margin-top: 95px;
-    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.599);
+    font-family: "Lucida Sans Unicode";
+    margin-left: 500px;
+    margin-top: 80px;
+    border: 1px solid rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    font-size: 34px;
+    font-size: 24px;
 }
 
 
 
-#outout {
+#outout1 {
     margin-left: 40px;
-    margin-top: 10px;
     display: block;
     border: 1px solid black;
-    border-radius: 5px;
+    font-family: "Lucida Sans Unicode";
+    border-radius: 10px;
     font-size: 20px;
     max-height: 100px;
     max-width: 650px;
     min-height: 30px;
     min-width: 30px;
+}
+
+
+#outout2 {
+    margin-left: 40px;
+    display: block;
+    border: 1px solid black;
+    font-family: "Lucida Sans Unicode";
+    border-radius: 10px;
+    font-size: 20px;
+    max-height: 100px;
+    max-width: 650px;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+#outout3 {
+    margin-left: 40px;
+    display: block;
+    background-color: #ffffff00;
+    color: rgb(115, 51, 117);
+    font-family: "Lucida Sans Unicode";
+    font-size: 16px;
+    border-radius: 0;
+    max-height: 20px;
+    max-width: 250px;
+    min-height: 20px;
+    min-width: 250px;
 }
